@@ -11,7 +11,7 @@ CREATE TABLE department (
 CREATE TABLE role (
     id INT AUTO_INCREMENT,
     title VARCHAR(30),
-    salary DECIMAL(6,2),
+    salary DECIMAL(8,2),
     department_id INT NOT NULL,
     PRIMARY KEY(id),
     FOREIGN KEY(department_id) REFERENCES department(id)
@@ -28,5 +28,3 @@ CREATE TABLE employee (
     FOREIGN KEY(manager_id) REFERENCES employee(id)
 );
 
-INSERT INTO department (name)
-VALUES ('Technology')
