@@ -19,8 +19,6 @@
   "dependencies": {
     "inquirer": "^6.5.2",
     "mysql": "^2.18.1",
-    "cfonts": "^2.4.5",
-    "console.table": "^0.10.0",
-    "figlet": "^1.2.4"
+    "console.table": "^0.10.0"
   }
 }
