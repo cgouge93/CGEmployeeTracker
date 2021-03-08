@@ -1,5 +1,5 @@
 INSERT INTO department
-  (name)
+  (department_name)
 VALUES
   ('Member Service'),
   ('Technology'),
