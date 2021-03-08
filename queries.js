@@ -217,7 +217,7 @@ const addRole = (connection, cb) => {
             {
                 name: 'salary',
                 type: 'number',
-                message: 'What ist he salary for this role?'
+                message: 'What is the salary for this role?'
             },
             {
                 name: 'department',
